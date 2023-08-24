@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acessories Store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="shortcut icon" href="img/62ecc07ceb86d3272686506c_Interior-2-min.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="app">
+        <div class="container">
+            <div class="header active">
+                <nav>
+                    <div class="nav_center">
+                        <div class="logoContainer">
+                            <h2>ECommerce</h2>
+                        </div>
+                        <div class="hamburger">
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+                    </div>
+                </nav>
+                <div class="linksContainer">
+                    <ul id="nav__menu">
+                        <li class="links"><a href="#">Home</a></li>
+                        <li class="links"><a href="#about">About</a></li>
+                        <li class="links"><a href="#services">Services</a></li>
+                        <li class="links"><a href="#cart">Cart</a></li>
+                        <li class="links"><a href="#contact">Contact</a></li>
+                        <li class="links"><a href="pages/login.html"> <i class="fa-solid fa-right-to-bracket"></i> </a>
+                        </li>
+                        <li class="links"><a href="pages/signup.html"> <i class="fa-solid fa-user-plus"></i> </a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <section class="search">
+                <header>
+                    <img src="img/62ecc07ceb86d3272686506c_Interior-2-min.jpg" alt="searchImage">
+                    <form action="" id="searchForm" method="POST">
+                        <input type="search" name="searchTerm" id="searchInput" placeholder="Search...">
+                        <button type="submit" id="searchBtn">Search</button>
+                    </form>
+                </header>
+            </section>
+        </div>
+
+        <!-- ***** MAIN 
+        ********** ADD ITEMS TO CART
+        ********** DISPLAY ITEMS -->
+        <main>
+            <div class="card__container">
+                <div class="card">
+                    <div class="card__img">
+                        <img src="img/school bag.avif" alt="cardImage" class="itemImage">
+                    </div>
+                    <div class="card__title">
+                        <h2>Gold</h2>
+                    </div>
+                    <div class="card__intro">
+                        <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore minus quasi amet, soluta
+                            facere optio assumenda explicabo deleniti aliquam voluptatibus.</h5>
+                    </div>
+                    <div class="card__cart">
+                        <div class="card__price">
+                            <b>$105.99</b>
+                        </div>
+                        <button class="card__addTo__cart" type="button">Add to cart <i
+                                class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__img">
+                        <img src="img/school bag.avif" alt="cardImage" class="itemImage">
+                    </div>
+                    <div class="card__title">
+                        <h2>Bag</h2>
+                    </div>
+                    <div class="card__intro">
+                        <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore minus quasi amet, soluta
+                            facere optio assumenda explicabo deleniti aliquam voluptatibus.</h5>
+                    </div>
+                    <div class="card__cart">
+                        <div class="card__price">
+                            <b>$5.99</b>
+                        </div>
+                        <button class="card__addTo__cart" type="button">Add to cart <i
+                                class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ***** POP UP 
+            ********** 
+            **********  -->
+            <div class="modal" title="View Cart...">
+                <a href="#cart">
+                    <div class="icon">
+                        <i class="fa-solid fa-arrow-down fa-bounce"></i>
+                    </div>
+                </a>
+            </div>
+        </main>
+
+        <!-- ***** ABOUT 
+        ********** SLIDER
+        ********** REVIEWS FROM CUSTOMERS -->
+
+        <section class="slider">
+            <header>
+                <h2 class="heading">Customers Reviews</h2>
+                <div class="hr"></div>
+            </header>
+
+            <div class="customers-slider slider-noHandle">
+                <div class="slider-card cs-container">
+                    <div class="slider-body cs-body active">
+                        <div class="slider-image cs-img">
+                            <img src="img/profile1 (1).jpg" alt="John Micheal">
+                        </div>
+                        <div class="slider-details cs-detalis">
+                            <div class="slider-review-stars cs-rate">
+                                <span class="rate"><i class="fa-solid fa-star"></i></span>
+                                <span class="rate"><i class="fa-solid fa-star"></i></span>
+                                <span class="rate"><i class="fa-solid fa-star"></i></span>
+                                <span class="rate"><i class="fa-solid fa-star"></i></span>
+                            </div>
+                            <div class="slider-review-comments cs-comment">
+                                <span class="gold">"</span> <strong>I'm database analyst meggings bro can make the world
+                                    turn into ai... Dummy text four </strong> <span class="gold">"</span>
+                            </div>
+                            <div class="slider-title cs-name">
+                                <h2>John mickeal</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-body cs-body">
+                        <div class="slider-image cs-img">
+                            <img src="img/profile2.jpg" alt="Anna johnson">
+                        </div>
+                        <div class="slider-details cs-detalis">
+                            <div class="slider-review-stars cs-rate">
+                                <span class="rate"><i class="fa-solid fa-star"></i></span>
+                                <span class="rate"><i class="fa-solid fa-star"></i></span>
+                                <span class="rate"><i class="fa-solid fa-star"></i></span>
+                                <span class="rate"><i class="fa-solid fa-star"></i></span>
+                                <span class="rate"><i class="fa-solid fa-star"></i></span>
+                            </div>
+                            <div class="slider-review-comments cs-comment">
+                                <span class="gold">"</span> <strong> I'm yung meggings aunt life is +1 today.And my job
+                                    is to wish you all a happy birthday... Dummy text two </strong> <span
+                                    class="gold">"</span>
+                            </div>
+                            <div class="slider-title cs-name">
+                                <h2>anna johnson</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-body cs-body">
+                        <div class="slider-image cs-img">
+                            <img src="img/profile3.jpg" alt="Will smith">
+                        </div>
+                        <div class="slider-details cs-detalis">
+                            <div class="slider-review-stars cs-rate">
+                                <span class="rate"><i class="fa-solid fa-star"></i></span>
+                                <span class="rate"><i class="fa-solid fa-star"></i></span>
+                            </div>
+                            <div class="slider-review-comments cs-comment">
+                                <span class="gold">"</span> <strong> I'm actor meggings guy movie is interesting and i
+                                    have acted men in black 1 - 3... Dummy text three </strong> <span
+                                    class="gold">"</span>
+                            </div>
+                            <div class="slider-title cs-name">
+                                <h2>Will smith</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <header>
+                <h2 class="heading">Weekly Reviews</h2>
+                <div class="hr"></div>
+            </header>
+
+            <div class="reviews-slider slider-handle">
+                <div class="slider-container">
+                    <div class="slider-buttons">
+                        <div class="left-btn"> <i class="fa-solid fa-arrow-left fa-beat"></i> </div>
+                        <div class="right-btn"> <i class="fa-solid fa-arrow-right fa-beat"></i> </div>
+                    </div>
+                    <div class="card">
+                        <div class="card__img">
+                            <img src="img/62e3a5ecb74bef4775e7c799_Image 3-min.jpg" alt="cardImage">
+                        </div>
+                        <div class="card__name">
+                            <h2>Williams Greg</h2>
+                        </div>
+                        <div class="card__description">
+                            <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore minus quasi amet, soluta
+                                facere optio assumenda explicabo deleniti aliquam voluptatibus.</h5>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="counting" id="cart">
+                <div class="row">
+                    <div class="box">
+                        <div class="tab">
+                            <div class="header">
+                                <h2>Happy Customers</h2>
+                            </div>
+                            <div class="numberContainer">
+                                <div class="increase">
+                                    <p class="number">0</p> <span class="symbol">+</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="tab">
+                            <div class="header">
+                                <h2>Pending Request</h2>
+                            </div>
+                            <div class="numberContainer">
+                                <div class="increase">
+                                    <p class="number" id="pending">1</p> <span class="symbol"
+                                        id="symbolPending">+</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="tab">
+                            <div class="header">
+                                <h2>Declined Request</h2>
+                            </div>
+                            <div class="numberContainer">
+                                <div class="increase">
+                                    <p class="number" id="declined">1</p> <span class="symbol"
+                                        id="declinedSymbol">+</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ***** CART 
+        ********** PURCHASE BUTTON
+        ********** CART FROM CUSTOMERS -->
+
+        <section class="cartPurchase" id="cart">
+            <div class="cartContainer">
+                <header>
+                    <h2 class="heading">Cart <i class="fa-solid fa-cart-shopping fa-bounce"
+                            style="padding-left: 5px;color: #ffc83d;"></i></h2>
+                    <div class="hr"></div>
+                </header>
+
+                <div class="cart-row">
+                    <div class="cart-header cart-row-item"><span>ITEM</span></div>
+                    <div class="cart-header cart-row-quantity"><span>PRICE</span></div>
+                    <div class="cart-header cart-row-price"><span>QUANTITY</span></div>
+                </div>
+
+                <div class="cart-items">
+                </div>
+
+                <div class="total-container" style="display: flex; justify-content: right; width: 100%;">
+                    <h3
+                        style="padding: 15px 20px; background-color: #0f3929; border-radius: 10px; color: #4d6c60; letter-spacing: 1px; font-weight: bold;">
+                        Total :<span class="total">$0.00</span></h3>
+                </div>
+                <div class="purchaseItem">
+                    <button type="button" id="purchaseBtn">Purchase</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ***** ABOUT US 
+        ********** 
+        **********  -->
+
+        <section class="about-us" id="about">
+            <div class="row">
+                <div class="tab">
+                    <header>
+                        <div class="heading">
+                            <h1>Why Choose Us?</h1>
+                        </div>
+                        <div class="next">
+                            <p>Octaxtrades is an ultimate solution to your cryptocurrency Journey, our platform offers
+                                you the best way to benefit from best traders and cashbacks.</p>
+                        </div>
+                    </header>
+                </div>
+
+                <div class="tab-2">
+                    <div class="box">
+                        <div class="img_container">
+                            <img src="img/ai-chatbot-3.png" alt="ai-chatbot">
+                        </div>
+                        <div class="box-text">
+                            <i>Modern Design</i>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="img_container">
+                            <img src="img/ai-chatbot-2.png" alt="ai-chatbot">
+                        </div>
+                        <div class="box-text">
+                            <i>Automated System</i>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="img_container">
+                            <img src="img/ai-chatbot-1.png" alt="ai-chatbot">
+                        </div>
+                        <div class="box-text">
+                            <i>Easy Interaction & Safe Cashout Method</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ***** SERVICES
+        ********** 
+        **********  -->
+        <section class="partner">
+            <div class="tab">
+                <h2>Partners</h2>
+                <div class="partner__img">
+                    <div>
+                        <img src="img/bloomberg.svg" alt="bloomberg">
+                    </div>
+                    <div>
+                        <img src="img/financial-post.svg" alt="financial">
+                    </div>
+                    <div>
+                        <img src="img/forbes.svg" alt="forbes">
+                    </div>
+                    <div>
+                        <img src="img/bitcoin-magazine.svg" alt="bitcoin">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ***** SERVICES
+        ********** 
+        **********  -->
+        <section class="services" id="services">
+            <header style="padding-bottom: 50px;">
+                <h2 class="heading">Our services</h2>
+                <div class="hr"></div>
+            </header>
+            <div class="row">
+                <div class="tab">
+                    <div class="icon"><i class="fa-solid fa-brain"></i></div>
+                    <div class="text">
+                        <header>
+                            <h1> Artificial Intelligient </h1>
+                        </header>
+                        <h3>Built-in automated system which helps you ensure easy and essential traded cashbacks.</h3>
+                    </div>
+                </div>
+
+                <div class="tab">
+                    <div class="icon"><i class="fa-brands fa-searchengin"></i></div>
+                    <div class="text">
+                        <header>
+                            <h1> Research & Development </h1>
+                        </header>
+                        <h3>Blockchain is revolutionizing our digital world and we want to transform the technology to
+                            innovation products.</h3>
+                    </div>
+                </div>
+
+                <div class="tab">
+                    <div class="icon"><i class="fas fa-hand-holding-usd"></i></div>
+                    <div class="text">
+                        <header>
+                            <h1> Quick fund Access </h1>
+                        </header>
+                        <h3>Built-in automated system which helps you ensure easy and essential traded cashbacks.</h3>
+                    </div>
+                </div>
+
+                <div class="tab">
+                    <div class="icon"><i class="fas fa-user-shield"></i></div>
+                    <div class="text">
+                        <header>
+                            <h1> Secure Account </h1>
+                        </header>
+                        <h3>We offer you the best guard to ensure you get easy and secure interface.</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ***** CONTACT
+        *********
+        ********* -->
+
+
+        <section class="contact" id="contact">
+            <div class="row">
+                <div class="contact-us">
+                    <h1>Contact Us</h1>
+                    <div class="hr"></div>
+                </div>
+
+                <div class="column">
+
+                    <form action="https://formspree.io/ferdinand1475joel@gmail.com" method="POST">
+                        <label for="">
+                            <input type="text" placeholder="Name..." name="Username">
+                        </label>
+                        <label for="">
+                            <input type="text" placeholder="e.g @examplegmail.com" name="userEmail">
+                        </label>
+                        <textarea id="" cols="30" rows="10" name="user__complaint"
+                            placeholder="Type Something"></textarea>
+                        <div class="submit">
+                            <button class="submit-btn" type="submit">Submit</button>
+                        </div>
+                    </form>
+
+                    <div class="map">
+                        <div class="location_on_map">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ***** FOOTER 
+        ********** 
+        **********  -->
+        <footer>
+            <div class="row">
+                <div class="tab">
+                    <header>
+                        <h2>ECommerce</h2>
+                    </header>
+                    <div class="img">
+                        <img src="img/62ecc07ceb86d3272686506c_Interior-2-min.jpg" alt="logo">
+                    </div>
+                </div>
+                <div class="tab-2">
+                    <div class="content">
+                        <h2>Service Links</h2>
+                        <div class="links">
+                            <ul>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Cart</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="content">
+                        <h2>Information</h2>
+                        <div class="column">
+                            <div>
+                                <h3>Tel:</h3> <span class="detail">+234-903-824-8481</span>
+                            </div>
+                            <div>
+                                <h3>Email:</h3> <span class="detail">info@octatrades.com</span>
+                            </div>
+                            <div>
+                                <h3>Location:</h3>
+                                <address class="detail">Hon B Adobo Lane Off Ekuigbo </address>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="last">
+                <h2>copyright © <span class="currentYear"></span> <a href="index.html">ECommerce</a> All Rights Reserved
+                </h2>
+            </div>
+        </footer>
+    </div>
+
+    <script type="module" src="js/script.js"></script>
+</body>
+
+</html>
